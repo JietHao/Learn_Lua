@@ -5,22 +5,17 @@
 ## 概念
 
 ### 1. Lua
-```sh
 Lua is a powerful, efficient, lightweight, embeddable scripting language. It supports procedural programming, object-oriented programming, functional programming, data-driven programming, and data description.
-```
 
 
 ### 2. LuaJIT
-```sh
 LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language.
-```
 
 
 ### 3. Lua虚拟机(VM)
-```sh
 - 分类：基于栈（Stack Base）、基于寄存器（Register Base）
 - Dalvik是基于寄存器的虚拟机，Java、.NET CLR、Python、Ruby、Lua5.0之前的版本的虚拟机都是基于栈的虚拟机；从5.0版本开始，Lua的虚拟机改成了基于寄存器的虚拟机。
-```
+
 
 ## 参考
 - lua: http://www.lua.org/
@@ -75,7 +70,6 @@ hello world
 
 
 ## 数据类型
-```sh
 Lua语言中有8种基本类型： 
 - nil （空）
 - boolean （布尔）
@@ -85,4 +79,3 @@ Lua语言中有8种基本类型：
 - function （函数）
 - thread （线程）
 - table （表）
-```
